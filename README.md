@@ -23,11 +23,11 @@ This program allows users to track and predict the path of hurricanes based on m
 
 ## ASCII Map
 
-The program generates an ASCII map to visualize hurricane paths and key locations. The map legend includes:
+The program generates a dynamic ASCII map to visualize hurricane paths and key locations. The map includes:
 
 - Hurricane intensity symbols (D, S, 1-5)
-- Projected path markers (X)
-- Key location markers (H, R, C, B, M, T, K, J, P, A)
+- Projected path of storm
+- Various major cities/locations
 
 This visual representation allows for quick understanding of the hurricane's path and its relation to important geographical points.
 
