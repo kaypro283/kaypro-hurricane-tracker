@@ -52,12 +52,33 @@ The program implements a Kalman filter to improve the accuracy of projected posi
 3. Use the main menu to access various features and reports
 4. Generate ASCII maps, view projections, and analyze wind speed data
 
-## Data Files
+## Creating and Uploading Data Files
 
-The repository includes sample .DAT files for historical hurricanes. To use these:
+The program provides pre-defined tracking data for Tropical Storm Debby (as of August 4, 2024). You are provided an option to use these data, upload a data file (*.dat), or manually input the hurricane storm data (you will be promoted to save the manually entered data after completing input). The repository includes a README.TXT file, which covers the requried format for data files. The format is very specific, so please follow it carefully. To upload a file:
 
 1. Select option 2 from the initial menu to load from a file
-2. Enter the filename (e.g., ELENA.DAT) when prompted
+2. Enter the filename (e.g., ALPHA.DAT) when prompted
+
+THe repository contains an example data file (ALPHA.DAT) for uploading. Rememeber you have "un-rem" the lines of code associated with data loading/saving. This data file includes:
+
+Number of days (10)
+
+For each day:
+
+Storm direction (degrees)
+Storm speed (knots)
+Latitude (degrees North)
+Longitude (degrees West, negative)
+Central pressure (millibars)
+Maximum sustained wind speed (knots)
+
+Hurricane Alpha in this example:
+
+Starts north of Hispaniola
+Moves through the Bahamas
+Crosses the Florida Keys
+Enters the Gulf of Mexico
+Weakens as it approaches the northern Gulf Coast
 
 ## Contributing
 
